@@ -69,7 +69,7 @@ async function runCommand(
 
 				try {
 					line = options.parseLine?.(line, isErr) ?? line;
-					if (isErr && !failSetFromThrow) failText = line;
+					if (isErr && !failSetFromThrow) failText ||= line;
 				} catch (e) {
 					line = errorText(e);
 					failText = line;
