@@ -89,7 +89,7 @@ async function runCommand(
 	const code = await close;
 
 	return code === 0
-		? { status: 'succeeded', text: options.successText ?? 'done' }
+		? { status: 'succeeded', text: options.successText ?? styleText('green', 'done') }
 		: { status: 'failed', text: failText ?? (code ? `failed (${code})` : 'failed') };
 }
 

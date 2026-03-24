@@ -98,6 +98,8 @@ export async function run(options: Options, jobs: Job[]): Promise<Results> {
 		const index = $.nextIndex++;
 
 		const job = { text: `${$.prefix(index)} ${options.jobStartText || 'starting...'}`, index };
+
+		if (!_noInPlaceUpdate && !noInitialDraw) _clear();
 		activeJobs.push(job);
 
 		if (_noInPlaceUpdate) console.log(job.text);
