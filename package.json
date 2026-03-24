@@ -1,5 +1,5 @@
 {
-	"name": "cli.io",
+	"name": "ioium",
 	"version": "0.0.1",
 	"description": "A library focused on making CLI output beautiful with minimal effort.",
 	"funding": {
@@ -25,14 +25,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/james-pre/cli.io.git"
+		"url": "git+https://github.com/james-pre/ioium.git"
 	},
 	"author": "James Prevett <jp@jamespre.dev> (https://jamespre.dev)",
 	"license": "LGPL-3.0-or-later",
 	"bugs": {
-		"url": "https://github.com/james-pre/cli.io/issues"
+		"url": "https://github.com/james-pre/ioium/issues"
 	},
-	"homepage": "https://github.com/james-pre/cli.io#readme",
+	"homepage": "https://github.com/james-pre/ioium#readme",
 	"devDependencies": {
 		"@types/node": "^24.7.0",
 		"eslint": "^9.12.0",

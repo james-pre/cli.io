@@ -18,5 +18,5 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"editor.formatOnSave": true,
-	"cSpell.words": ["memium", "offsetof", "typedoc", "uncapitalize"]
+	"cSpell.words": ["ioium", "memium", "offsetof", "typedoc", "uncapitalize"]
 }
