@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-3.0-or-later
 import * as io from './core.js';
 
 export interface JobResult {

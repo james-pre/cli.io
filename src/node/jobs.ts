@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-3.0-or-later
 import { spawn } from 'node:child_process';
 import * as jobs from '../jobs.js';
 import { styleText } from 'node:util';
